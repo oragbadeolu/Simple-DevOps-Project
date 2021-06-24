@@ -25,6 +25,9 @@ Jenkins is a self-contained Java-based program, ready to run out-of-the-box, wit
     # To set it permanently update your .bash_profile
    vi ~/.bash_profile
    ```
+   or use cmd line
+   	export JAVA_HOME=/usr/local/jdk1.8.0_201
+	export PATH=$PATH:$JAVA_HOME/bin
    _The output should be something like this,_
     ```sh
    [root@~]# java -version
